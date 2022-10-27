@@ -10,7 +10,7 @@ function App() {
     if (isAndroid) {
       return (
         <>
-          <p>Hello Android</p>;
+          <p>Hello Android</p>
           <model-viewer
             src={glbFile}
             ar
