@@ -16,7 +16,7 @@ function App() {
             ar
             ar-modes="webxr"
             camera-controls
-            poster={image}
+            // poster={image}
             shadow-intensity="1"
           ></model-viewer>
         </>
