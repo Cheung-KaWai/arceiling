@@ -12,7 +12,7 @@ function App() {
         <>
           <p>Hello Android</p>
           <model-viewer src={glbFile} ar ar-modes="webxr" camera-controls shadow-intensity="1">
-            <div class="progress-bar hide" slot="progress-bar">
+            {/* <div class="progress-bar hide" slot="progress-bar">
               <div class="update-bar"></div>
             </div>
             <button slot="ar-button" id="ar-button">
@@ -20,7 +20,7 @@ function App() {
             </button>
             <div id="ar-prompt">
               <img src="https://modelviewer.dev/shared-assets/icons/hand.png" />
-            </div>
+            </div> */}
           </model-viewer>
         </>
       );
