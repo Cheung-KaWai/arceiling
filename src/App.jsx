@@ -35,7 +35,7 @@ function App() {
         </>
       );
     }
-    return <p>not detected</p>;
+    return <p>visit this site on your phone ;)</p>;
   };
 
   return <div>{renderContent()}</div>;
