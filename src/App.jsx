@@ -11,7 +11,7 @@ function App() {
       return (
         <>
           <p>Hello Android</p>
-          <model-viewer src={glbFile} ar ar-modes="webxr" camera-controls poster="poster.webp" shadow-intensity="1">
+          <model-viewer src={glbFile} ar ar-modes="webxr" camera-controls shadow-intensity="1">
             <div class="progress-bar hide" slot="progress-bar">
               <div class="update-bar"></div>
             </div>
@@ -38,12 +38,7 @@ function App() {
     return <p>not detected</p>;
   };
 
-  return (
-    <div>
-      <h1>Test</h1>
-      {renderContent()}
-    </div>
-  );
+  return <div>{renderContent()}</div>;
 }
 
 export default App;
